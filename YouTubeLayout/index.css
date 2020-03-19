@@ -140,4 +140,7 @@ figure {
 .footer {
     /* background-color: darksalmon; */
     grid-area: 4/1/4/4;
+    color: gray;
+    font-family: cursive;
+    justify-self: center;
 }
