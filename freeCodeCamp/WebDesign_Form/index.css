@@ -1,0 +1,121 @@
+body {
+    background: url(https://i.postimg.cc/TPGG4VgB/dalmatian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: snow;
+  }
+  
+  
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+    opacity: 0.8;
+  }
+  
+  article {
+    background: seagreen;
+    border-radius: 10px;
+    /* border: solid black 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-width: 500px;
+  }
+  
+  #survey-form {
+    background: seagreen;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* border: solid black 1px; */
+    width: 60%;
+    min-width: 500px;
+  }
+  
+  .form-group {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* border: solid black 1px; */
+  }
+  
+  #likes>label, #dislikes>label {
+    display: grid;
+    
+  }
+  
+  .form-group>input, select {
+    width: 70%;
+    padding: 0.5em;
+  }
+  
+  input[type="submit"] {
+    background: darkslategray;
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+    color: snow;
+    width: 40%;
+    border-radius: 50px;
+    justify-self: center;
+  }
+  
+  input[type="checkbox"], input[type="radio"] {
+    width: 15px;
+    height: 15px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="date"],input[type="range"], 
+  select, textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  
+  footer {
+    background: seagreen;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* border: solid black 1px; */
+    width: 60%;
+    min-width: 500px;
+  }
+  
+  footer>h5 {
+    justify-self: center;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: -20px;
+    padding-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1.1em;
+  }
+  
+  label>span {
+    font-size: 1.3em;
+  }
+  
+  
